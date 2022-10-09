@@ -1,0 +1,136 @@
+.site-subscription {
+  padding-top: 180px;
+  padding-bottom: 180px;
+  border-radius: 5px;
+  background-image:url("../img/big-dog-bgi.png"), url("../img/subscription-bgi.png");
+  background-repeat: no-repeat;
+  background-size:613px 481px, 1444px 308px;
+  background-position:calc(50% + 290px) calc(50% - 50px), calc(50% + 0px) calc(50% - 27px);
+}
+
+.site-subscription__inner {
+  margin: 143px;
+}
+
+
+.site-subscription__heading {
+  margin-bottom: 32px;
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 20px;
+  display: flex;
+  align-items: center;
+  color: #FFFFFF;
+}
+
+
+form{
+  display: flex;
+}
+
+.site-subscription__email {
+  width: 335px;
+  background: #FFFFFF;
+  border-radius: 5px;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 20px;
+  display: flex;
+  align-items: center;
+  margin-right: 21px;
+  color: #949494;
+  padding-top: 18px;
+  padding-bottom: 12px;
+  padding-left: 22px;
+  border: none;
+}
+
+
+.form-button {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 21px;
+  color: #FFFFFF;
+  width: 188px;
+  background: #333333;
+  border-radius: 3px;
+  padding-top: 15px;
+  padding-right: 53px;
+  padding-bottom: 15px;
+  padding-left: 15px;
+  border: none;
+  
+  
+  &:hover{
+    background: rgba(51, 51, 51, 0.8);
+  }
+  
+  &:active{
+    background: rgba(51, 51, 51, 0.6);
+  }
+}
+
+@media only screen and (max-width:1200px) {
+  .site-subscription {
+    padding-top: 120px;
+    padding-bottom: 178px;
+    background-size: 591px 474px, 1413px 298px;
+    background-position:calc(50% + 289px) calc(50% - 50px), calc(50% + -5px) calc(50% - 26px)
+  }
+  
+  .site-subscription__inner {
+    margin: 40px;
+  }
+  
+  .site-subscription__heading {
+    margin-bottom: 32px;
+    font-size: 42px;
+    line-height: 18px;
+  }
+  
+  .site-subscription__email {
+    width: 307px;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 20px;
+  }
+}
+
+@media only screen and (max-width:950px) {
+  .site-subscription {
+    padding-top: 120px;
+    padding-bottom: 184px;
+    background-size: 485px 395px, 1361px 237px;
+    background-position: calc(50% + 207px) calc(50% - 51px), calc(50% + -137px) calc(50% - 26px);
+  }
+  
+  .site-subscription__heading {
+    margin-bottom: 30px;
+    font-size: 35px;
+    line-height: 15px;
+  }
+
+  .site-subscription__inner {
+    margin: 22px;
+  }
+
+  .site-subscription__email {
+    width: 190px;
+    font-size: 14px;
+    line-height: 16px;
+    margin-right: 18px;
+    padding-top: 10px;
+    padding-bottom: 13px;
+    padding-left: 18px;
+  }
+
+  .form-button {
+    font-size: 15px;
+    line-height: 17px;
+    width: 148px;
+    padding-top: 14px;
+    padding-right: 18px;
+    padding-bottom: 13px;
+    padding-left: 12px;
+  }
+}

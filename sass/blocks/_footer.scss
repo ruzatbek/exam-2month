@@ -1,0 +1,160 @@
+.site-footer {
+  padding-top: 57px;
+  padding-bottom: 23px;
+  background: #F3F3F3;
+  border: 1px solid #EBEBEB;
+}
+
+
+.site-footer__inner {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+
+.site-footer__logo {
+  width: 178px;
+  height: 87px;
+  
+  &:hover{
+    opacity: 0.8;
+  }
+  
+  &:active{
+    opacity: 0.6;
+  }
+}
+
+
+.site-footer__list__wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 288px;
+}
+
+
+.site-footer__list {
+  padding-left: 0;
+  margin: 0;
+  
+  
+}
+
+.site-footer__item {
+  margin-bottom: 14px;
+}
+
+
+.site-footer__link {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 21px;
+  color: #333333;
+}
+
+
+.site-footer__content {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 665px;
+}
+
+
+.site-footer__address {
+  position: relative;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 21px;
+  display: flex;
+  align-items: center;
+  color: #333333;
+  width: 183px;
+  padding-left: 26px;
+  
+  &::before{
+    content: " ";
+    position: absolute;
+    display: block;
+    width: 17px;
+    height: 16px;
+    top: 0px;
+    left: 0px;
+    background-image: url("../img/house.svg");
+    background-repeat: no-repeat;
+    background-size: contain;
+    
+  }
+  
+}
+
+
+.site-footer__tel__wrapper {
+  position: relative;
+  width: 138px;
+  padding-left: 25px;
+  
+  &::before{
+    content: " ";
+    position: absolute;
+    display: block;
+    width: 17px;
+    height: 16px;
+    top: 0px;
+    left: 0px;
+    background-image: url("../img/telephone.svg");
+    background-repeat: no-repeat;
+    background-size: contain;
+  }
+}
+
+
+.site-footer__tel {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 18px;
+  color: #333333;
+  margin-bottom: 4px;
+}
+
+
+.site-footer__time__wrapper {
+  position: relative;
+  width: 146px;
+  padding-left: 28px;
+  
+  &::before{
+    content: " ";
+    position: absolute;
+    display: block;
+    width: 16px;
+    height: 16px;
+    top: 0px;
+    left: 0px;
+    background-image: url("../img/kalendar.svg");
+    background-repeat: no-repeat;
+    background-size: contain;
+  }
+  
+}
+
+
+.site-footer__top__span {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 18px;
+  color: #333333;
+  
+}
+
+.site-footer__text{
+  text-align: right;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 18px;
+  color: #5C5C5C;
+  margin-top: 63px;
+}

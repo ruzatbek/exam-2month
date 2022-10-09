@@ -1,0 +1,150 @@
+.site-articles {
+  padding-top: 36px;
+  padding-bottom: 165px;
+}
+
+.site-articles__heading {
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 20px;
+  text-align: center;
+  color: #333333;
+  margin-bottom: 80px;
+  text-align: center;
+}
+
+
+.site-articles__list {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  list-style-type: none;
+  padding-left: 0;
+  margin: 0;
+}
+
+
+.site-articles__wrapper{
+  padding-top: 21px;
+  padding-right: 22px;
+  padding-bottom: 33px;
+  padding-left: 22px;
+}
+
+.site-articles__item {
+  width: 305px;
+  background-color: #fff;
+}
+
+
+.site-articles__links{
+  text-decoration: none;
+  margin-bottom: 6px;
+}
+
+.site-articles__item--active{
+  width: 640px;
+  display: flex;
+  align-items: center;
+  
+}
+
+
+.site-articles__box{
+  width: 335px;
+  padding-top: 42px;
+  padding-right: 34px;
+  padding-bottom: 42px;
+  padding-left: 34px;
+}
+
+
+.site-articles__item__span {
+  display: block;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 18px;
+  color: #949494;
+  margin-bottom: 2px;
+  text-align: right;
+}
+
+.site-articles__item__spans{
+  display: inline-block;
+  margin-left: 47px;
+}
+
+
+.site-articles__item__heading {
+  font-weight: 700;
+  font-size: 22px;
+  line-height: 25px;
+  color: #000000;
+  margin-bottom: 15px;
+}
+
+
+.site-articles__item__text {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 20px;
+  color: #949494;
+  margin-bottom: 37px;
+}
+
+.site-articles__item__links{
+  position: relative;
+  width: 129px;
+  padding-left: 29px;
+  
+  &::before{
+    content: " ";
+    position: absolute;
+    display: block;
+    width: 23px;
+    height: 21px;
+    top: 0px;
+    left: 0px;
+    background-image: url("../img/pet.svg");
+    background-repeat: no-repeat;
+    background-size: contain;
+  }
+}
+
+.site-articles__item__link {
+  position: relative;
+  text-decoration: none;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 21px;
+  color: #333333;
+  display: inline-block;
+}
+
+.site-articles__item__link::before{
+  position: absolute;
+  width: 100%;
+  height: 0;
+  bottom: 4px;
+  right: 0;
+  left: 0;
+  background-color:#FFBD54;
+  content: '';
+}
+
+.site-articles__item__link:hover::before{
+  height: 15%;
+  opacity: 0.8;
+}
+
+.site-articles__item__link:active::before{
+  height: 20%;
+  opacity: 0.6;
+}
+
+.site-articles__links {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 21px;
+  color: #333333;
+}

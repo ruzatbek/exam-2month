@@ -1,0 +1,101 @@
+.site-quote {
+  position: relative;
+  padding-top: 73px;
+  padding-bottom: 73px;
+  
+  &::before{
+    content: " ";
+    position: absolute;
+    display: block;
+    width: 55px;
+    height: 35px;
+    top: calc(50% - 95px);
+    left: calc(50% - 480px);
+    background-image: url("../img/left-qoute.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+  }
+  
+  &::after{
+    content: " ";
+    position: absolute;
+    display: block;
+    width: 55px;
+    height: 35px;
+    top: calc(50% - 30px);
+    left: calc(50% + 420px);
+    background-image: url("../img/right-qoute.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+  }
+}
+
+.site-quote__inner {
+  text-align: center;
+  width: 753px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.site-quote__line {
+  display: block;
+  width: 140px;
+  height: 3px;
+  background: #DBDBDB;
+  margin-right: auto;
+  margin-left: auto;
+  margin-bottom: 43px;
+}
+
+.site-quote__blockquote {
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 26px;
+  text-align: center;
+  color: #949494;
+  margin: 0;
+  margin-bottom: 35px;
+}
+
+.site-quote__span {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 26px;
+  color: #333333;
+}
+
+@media only screen and (max-width:1370px) {
+  .site-quote__inner {
+    margin-right: 391px;
+    margin-left: 100px;
+  }
+  .site-quote__blockquote {
+    font-size: 18px;
+    line-height: 24px;
+  }
+  
+  .site-quote__span {
+    font-size: 18px;
+    line-height: 24px
+  }
+  
+  .site-quote {
+    position: relative;
+    padding-top: 73px;
+    padding-bottom: 73px;
+    
+    &::before{
+      width: 52px;
+      height: 32px;
+      top: calc(50% - 95px);
+      left: calc(50% - 550px);
+    }
+    
+    &::after{
+      width: 52px;
+      height: 32px;
+      top: calc(50% - 30px);
+      left: calc(50% + 300px);
+    }
+  }
+}
